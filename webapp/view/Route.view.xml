@@ -1,0 +1,55 @@
+<!--<?xml-stylesheet type="text/css" href="style.css"?>-->
+
+<mvc:View controllerName="Cap.PracticeRouting.controller.Route" xmlns:mvc="sap.ui.core.mvc" 
+xmlns:f="sap.ui.layout.form" displayBlock="true"
+	xmlns="sap.m">
+
+	<!--<App id="app">-->
+	<!--	<pages>-->
+	<Page title="{i18n>title}">
+		<Table class="bTable" id="table1" items="{contactdetails>/empData}">
+			<columns>
+				<Column>
+					<Label text="EmpID"></Label>
+				</Column>
+				<Column>
+					<Label text="EmpName"></Label>
+				</Column>
+				<Column>
+					<Label text="Salary"></Label>
+				</Column>
+				<Column>
+					<Label text="Designation"></Label>
+				</Column>
+				<Column>
+					<Label text="Location"></Label>
+				</Column>
+				<Column>
+						<Label text="DialogBox"></Label>
+				</Column>
+				<Column>
+					<Label text="Routing"></Label>
+				</Column>
+				<!--<Column>-->
+				<!--	<Label text="Marital Status"></Label>-->
+				<!--</Column>-->
+			</columns>
+			<ColumnListItem press="onPress">
+				<Text text="{contactdetails>eId}" textDirection="RTL"/>
+				<Text text="{contactdetails>eName}"/>
+				<Text text="{contactdetails>eSalary}"/>
+				<Text text="{contactdetails>des}"/>
+				<Text text="{contactdetails>loc}"/>
+				<Link press="onPress" text="more info"></Link>
+				<Link press="routingPress" text="contact info" class="sapUiMediumMargin"></Link>
+				<!--<Select selectedkey = "{mStatus}">-->
+				<!--	<items>-->
+				<!--		<core:Item text="Single" key="Single"></core:Item>-->
+				<!--	</items>-->
+				<!--</Select>-->
+			</ColumnListItem>
+		</Table>
+	</Page>
+	<!--	</pages>-->
+	<!--</App>-->
+</mvc:View>

@@ -1,0 +1,31 @@
+{
+	"empData": [{
+		"eId": 1,
+		"eName": "Sravya",
+		"eSalary": 750000,
+		"des": "intern",
+		"loc": "Hyd",
+		"mStatus": "Single",
+		"phnnum": 9493486464
+
+	}, {
+		"eId": 2,
+		"eName": "Steve",
+		"eSalary": 1000000,
+		"des": "Team Lead",
+		"loc": "chennai",
+		"mStatus": "Married",
+		"phnnum": 7565845485
+
+	}, {
+		"eId": 3,
+		"eName": "Jena",
+		"eSalary": 50000,
+		"des": "developer",
+		"loc": "delhi",
+		"mStatus": "Married",
+		"phnnum": 3565784534
+
+	}]
+
+}

@@ -1,0 +1,13 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+	controllerName="Cap.PracticeRouting.controller.Route1" xmlns:html="http://www.w3.org/1999/xhtml">
+			<Page title="Contact Details" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+					<f:SimpleForm id="SimpleForm" layout="ResponsiveGridLayout" editable="false">
+						<f:content id="FormContent">
+							<Label text="MobileNumber"/>
+							<Text id="num" text="{formModel>/phnnum}"/>
+						</f:content>
+					</f:SimpleForm>
+				</content>
+			</Page>
+</mvc:View>
