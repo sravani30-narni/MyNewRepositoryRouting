@@ -49,6 +49,7 @@ xmlns:f="sap.ui.layout.form" displayBlock="true"
 				<!--</Select>-->
 			</ColumnListItem>
 		</Table>
+		<Text text="data changed after saving into local repository"></Text>
 	</Page>
 	<!--	</pages>-->
 	<!--</App>-->
